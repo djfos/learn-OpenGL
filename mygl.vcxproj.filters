@@ -34,10 +34,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="vs.txt">
+    <Text Include="object_fs.txt">
       <Filter>资源文件</Filter>
     </Text>
-    <Text Include="fs.txt">
+    <Text Include="lamp_fs.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="object_vs.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="lamp_vs.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>

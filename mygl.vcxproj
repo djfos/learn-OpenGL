@@ -153,8 +153,10 @@
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fs.txt" />
-    <Text Include="vs.txt" />
+    <Text Include="lamp_vs.txt" />
+    <Text Include="object_fs.txt" />
+    <Text Include="lamp_fs.txt" />
+    <Text Include="object_vs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />
