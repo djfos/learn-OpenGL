@@ -243,6 +243,7 @@ int main()
         objectShader.setInt("texture2", 1);
         objectShader.setVec3("lightColor", lightColor);
         objectShader.setVec3("lightPos", lampPosotion);
+        objectShader.setVec3("viewPos", camera.Position);
 
         // pass projection matrix to shader (note that in this case it could change every frame)
         auto projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
